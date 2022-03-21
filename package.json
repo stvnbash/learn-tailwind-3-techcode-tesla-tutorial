@@ -1,0 +1,21 @@
+{
+  "name": "learn-tailwind-3-techcode-tesla",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "postcss ./tailwind/main.css -o public/tailwind.css",
+    "watch": "postcss ./tailwind/main.css -o public/tailwind.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.23"
+  },
+  "dependencies": {
+    "postcss-cli": "^9.1.0"
+  }
+}
